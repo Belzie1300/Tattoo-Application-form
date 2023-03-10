@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <header>
+    <h1 id="title">Fine Line Art Tattoo Form</h1>
+    <p id="description">Please provide as much detail to ensure a more satifying design</p>
+  </header>
+
+  <body>
+ <form id="survey-form"> 
+ <label for="name-label"><input placeholder="Enter your name" required id="name" type="text">Name</input ></label>
+ <label for="number-label"><input placeholder="Age" min="18" max="120" id="number" type="number">Age</input></label>
+ <label for="email-label"><input placeholder="Enter your email" type="email" id="email">Email</input></label>
+ <label for="design-topic">Design topic: </label>
+ <textarea id="design-topic" name="design" rows="3" cols="30" placeholder="Please elaborate your ideal design"></textarea>
+<label for="body-select">Specify body placement:</label>
+<select name="body-part" id="body-select">
+  <option value="">--Please select one--</option>
+  <option value="wrist">Wrist</option>
+  <option value="ankle">Ankle</option>
+  <option value="b-palm">Back of the palm</option>
+  <option value="b-ear">Behind the ear</option>
+  <option value="t-foot">Top of the foot</option>
+  <option value="above-elbow">Above the elbow</option>
+  <option value="fingers">Fingers</option>
+  <option value="knee">Knee</option>
+  <option value="other">Other</option>
+</select>
+
+ </form> 
+  </body>
+<html>
