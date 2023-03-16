@@ -1,0 +1,70 @@
+.container {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+  background-color: #bbded6;
+  opacity: 96%;
+  border-radius: 15px;
+  font-family: monospace;
+}
+header {
+  color: #606470;
+  text-align: center;
+}
+h1 {
+  margin: 24px;
+  font-size: 44px;
+}
+header p {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+body {
+  font-size: 18px;
+  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/magnolia-ink-flowers-wall-prints-joanna-szmerdt.jpg);
+  background-position: bottom 1px right 50px;
+  background-repeat: no-repeat;
+}
+body p {
+  margin-top: 10px;
+}
+
+.hint {
+  opacity: 80%;
+  font-size: 16px;
+}
+
+/* form */
+
+fieldset {
+  margin: 15px 30px;
+  padding: 15px;
+  border: none;
+}
+.personal-info label {
+  margin: 15px 4px;
+  line-height: 2rem;
+}
+.personal-info input {
+  width: 100%;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+textarea,
+select,
+#submit {
+  width: 100%;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  min-height: 1rem;
+}
+#submit {
+  background-color: #71a0a5;
+}
